@@ -1,0 +1,435 @@
+Main folder,Level 1,Level 2,Level 3,Level 4,Level 5,df_name,df_path,model,perspective,seed,temperature,unique_id,round,participant_response_id,participant_age,participant_gender,participant_country,treatment_arm,outcome_variable,outcome_variable_string,n_covariates,covariates_included,raw_response,processed_response,actual_outcome,num_tokens_used,query_time,timestamp,prompt,outcome_variable_group,country,actual_outcome_group_mean,actual_outcome_group_sd,actual_outcome_group_n,actual_outcome_group_se,processed_response_group_mean,processed_response_group_sd,processed_response_group_n,processed_response_group_se,,prompt.x,prompt.y,question_number,response_order_incorrect,prompt_id,study,prompt_original,prompt_english,prompt_mixed,question_english,question_original,outcome,study_name,format,language_code,row_id,prompt_column,processed_probability,query_time_sec,vector_len,vector,responseid,age,gender,politics,politics_economic,politics_social,education,income,primary_outcome,belief1,belief2,belief3,belief4,policy1,policy2,policy3,policy4,policy5,policy6,policy7,policy8,policy9,sharing_outcome,behavior_outcome,language,actual_outcome_mean,actual_outcome_sd,actual_outcome_n,actual_outcome_se,count,id,age_group,study_date,treatment,order,cond,condname,politics2_1,politics2_9,edu,macarthur_ses,intro_timer,condition_time_total,sharecc,weptcc,pre_vaccine,pre_vaccine_willing,pre_booster,pre_booster_willing,pre_child_over5hyp,pre_child_over5,pre_child_under5,pre_future_vaccine,pre_attent,pre_vax_index,pre_child_index,post_future_vaccine,post_vaccine_willing,post_booster_willing,post_child_over5hyp,post_child_over5,post_child_under5,post_vax_index,post_child_index,children_over5_vax,1_vax_share,2_vax_share,3_vax_share,4_vax_share,5_vax_share,6_vax_share,7_vax_share,8_vax_share,9_vax_share,10_vax_share,11_vax_share,12_vax_share,13_vax_share,14_vax_share,15_vax_share,16_vax_share,17_vax_share,18_vax_share,19_vax_share,20_vax_share,21_vax_share,22_vax_share,23_vax_share,24_vax_share,25_vax_share,26_vax_share,27_vax_share,28_vax_share,29_vax_share,30_vax_share,31_vax_share,32_vax_share,33_vax_share,34_vax_share,35_vax_share,36_vax_share,37_vax_share,38_vax_share,39_vax_share,40_vax_share,42_vax_share,43_vax_share,44_vax_share,45_vax_share,46_vax_share,47_vax_share,48_vax_share,49_vax_share,50_vax_share,51_vax_share,vax_safe_4,vax_mods_1,vax_mods_5,vax_mods_7,vax_mods_8,vax_treat,vax2,vax1,novax,boost,booster_elig,vax_elig,vax_status,polpref_num,looporder,children_under5_vax,41_vax_share,52_vax_share,53_vax_share,54_vax_share,55_vax_share,56_vax_share,57_vax_share,58_vax_share,59_vax_share,60_vax_share,61_vax_share,62_vax_share,63_vax_share,64_vax_share,65_vax_share,66_vax_share,67_vax_share,68_vax_share,69_vax_share,70_vax_share,71_vax_share,72_vax_share,73_vax_share,74_vax_share,75_vax_share,76_vax_share,77_vax_share,78_vax_share,79_vax_share,80_vax_share,81_vax_share,82_vax_share,83_vax_share,84_vax_share,85_vax_share,86_vax_share,87_vax_share,88_vax_share,89_vax_share,90_vax_share,91_vax_share,92_vax_share,93_vax_share,94_vax_share,95_vax_share,96_vax_share,97_vax_share,98_vax_share,99_vax_share,100_vax_share,vaccine_death_risk,vaccine_child_risk,vax_mods_9,clusterid,cluster_headline,cluster_desc,top_words,is_misinformation,url_count,total_sum_views,lb_sum_views,ub_sum_views,total_predicted_impact,total_predicted_impact_lb,total_predicted_impact_ub,parent_domain,avg_estimate_url,avg_estimate_url_lb,avg_estimate_url_ub,experiment,headline,description,type,harmful_to_health_mt,lessmorevax_mt,id_type_mt,mr_agg_mt,harmful_to_health_rev_mt,mr_agg_rescale_mt,agg_score_mt,id2,familiar_lucid,demrep_lucid,harmful_to_health_lucid,inform_lucid,lessmorevax_lucid,surprising_lucid,veracity_lucid,yes_no_vaccine_lucid,actors_lucid,topic_lucid,z_familiar_lucid,z_demrep_lucid,z_harmful_to_health_lucid,z_inform_lucid,z_lessmorevax_lucid,z_surprising_lucid,z_veracity_lucid,z_yes_no_vaccine_lucid,classification_agree,attention_lucid,confidence_mem_15_lucid,harmful_health_you_lucid,harmful_to_child_lucid,hypothetical_harm_lucid,important_lucid,memorability_lucid,sensational_lucid,sharing_lucid,view_social_lucid,confidence_est_lucid,memory_est_lucid,engagement,url,engagementl,mr_agg_expert,z_attention_lucid,z_confidence_mem_15_lucid,z_harmful_health_you_lucid,z_harmful_to_child_lucid,z_hypothetical_harm_lucid,z_important_lucid,z_memorability_lucid,z_sensational_lucid,z_sharing_lucid,z_view_social_lucid,z_confidence_est_lucid,z_memory_est_lucid,z_engagement,z_engagementl,z_mr_agg_expert,z_classification_agree,z_type,url_rid,estimate,std.error,statistic,p.value,conf.low,conf.high,df,label,source,last_update,accuracy,transparency,classification_mt,mra_mt,mrc_mt,mrh_mt,mro_mt,mrr_mt,mru_mt,mrw_mt,harmful_to_health_se_mt,lessmorevax_se_mt,mr_agg_se_mt,agg_score_se_mt,pro_anti_vax_mt,pro_mt,anti_mt,pav_center_mt,agg_score_center_mt,vax_stance_gpt_v1,vax_stance_gpt_v2,is_anti_chatgpt,id_type,classification_dis,date,mandate,classification,harmful,mru_expert,mro_expert,mra_expert,mrc_expert,mrr_expert,mrw_expert,mrh_expert,cof,mis,mis_bin,mis_bin_agree,mis_bin_dis,classification_wf,z_classification,z_harmful,z_mru_expert,z_mro_expert,z_mra_expert,z_mrc_expert,z_mrr_expert,z_mrw_expert,z_mrh_expert,z_cof,z_mis,z_mis_bin,z_mis_bin_agree,z_mis_bin_dis,z_classification_dis,z_classification_wf,misinfo,treat,female,dem,harmful_to_health,surprising,demrep,veracity,familiar,attrit,mru,mro,mra,mrc,mrr,mrw,mrh,mr_agg,oath_id,compliance,participate,population,duration (in seconds),ic,comprehension,comprehension_1,comprehension_1_1,comprehension_1_2,1_compliance,2_compliance,3_compliance,4_compliance,5_compliance,6_compliance,7_compliance,8_compliance,9_compliance,10_compliance,11_compliance,12_compliance,13_compliance,14_compliance,15_compliance,16_compliance,17_compliance,18_compliance,19_compliance,20_compliance,21_compliance,nationality,industry,length,position,field,research,start date,end date,finished,timing - first click,timing - last click,timing - page submit,timing - click count,"below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - groups - odd","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - groups - even","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even10_1] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even10_2] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even10_3] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even10_4] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd10_1] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd10_2] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd10_3] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd10_4] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even10_1] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even10_2] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even10_3] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even10_4] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd10_1] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd10_2] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd10_3] - rank","below, you can find an example of the task. a timer will be displayed at the top of the page.
+
+ 
+
+your total earned income will be displayed at the top of the page. please, feel free to practice the task below.
+
+once you are ready continue to the next page.
+
+ 
+
+ 
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd10_4] - rank",what is your task in the current study?,how many rounds of the current study will you complete?,what determines your income?,"attention check! please, click on neither agree or disagree (2).","please, read the following statement carefully and check the box to commit to the statement.","please, read the following statement carefully and type it in the box below to commit to the statement.",click to write the question text - groups - odd,click to write the question text - groups - even,click to write the question text - ranks - odd - [field-even1_1] - rank,click to write the question text - ranks - odd - [field-even1_2] - rank,click to write the question text - ranks - odd - [field-even1_3] - rank,click to write the question text - ranks - odd - [field-even1_4] - rank,click to write the question text - ranks - odd - [field-odd1_1] - rank,click to write the question text - ranks - odd - [field-odd1_2] - rank,click to write the question text - ranks - odd - [field-odd1_3] - rank,click to write the question text - ranks - odd - [field-odd1_4] - rank,click to write the question text - ranks - even - [field-even1_1] - rank,click to write the question text - ranks - even - [field-even1_2] - rank,click to write the question text - ranks - even - [field-even1_3] - rank,click to write the question text - ranks - even - [field-even1_4] - rank,click to write the question text - ranks - even - [field-odd1_1] - rank,click to write the question text - ranks - even - [field-odd1_2] - rank,click to write the question text - ranks - even - [field-odd1_3] - rank,click to write the question text - ranks - even - [field-odd1_4] - rank,"total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - groups - odd","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - groups - even","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even2_1] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even2_2] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even2_3] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even2_4] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd2_1] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd2_2] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd2_3] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd2_4] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even2_1] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even2_2] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even2_3] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even2_4] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd2_1] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd2_2] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd2_3] - rank","total earned income: [field-income_1]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd2_4] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - groups - odd","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - groups - even","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even3_1] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even3_2] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even3_3] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even3_4] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd3_1] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd3_2] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd3_3] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd3_4] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even3_1] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even3_2] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even3_3] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even3_4] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd3_1] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd3_2] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd3_3] - rank","total earned income: [field-income_2]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd3_4] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - groups - odd","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - groups - even","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even4_1] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even4_2] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even4_3] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-even4_4] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd4_1] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd4_2] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd4_3] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd4_4] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even4_1] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even4_2] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even4_3] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-even4_4] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd4_1] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd4_2] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd4_3] - rank","total earned income: [field-income_3]
+
+
+
+please, sort the eight numbers as either odd or even. - ranks - even - [field-odd4_4] - rank","please, declare your income below (format x.xx).
+
+remember to report the income before taxes.","below you will find a series of statements about you. please read each statement and decide how much you agree or disagree with that statement. please answer every statement, even if you are not completely sure of your response. - i find it difficult to lie.","below you will find a series of statements about you. please read each statement and decide how much you agree or disagree with that statement. please answer every statement, even if you are not completely sure of your response. - i would like to know how to make lots of money in a dishonest manner.","below you will find a series of statements about you. please read each statement and decide how much you agree or disagree with that statement. please answer every statement, even if you are not completely sure of your response. - i want to be famous.","below you will find a series of statements about you. please read each statement and decide how much you agree or disagree with that statement. please answer every statement, even if you are not completely sure of your response. - i am entitled to special treatment.","please, rate the following statements. - most people are basically honest.","please, rate the following statements. - most people are trustworthy.","please, rate the following statements. - i am trustful.","where would you place yourself on this ladder to represent where you think you stand at this time of your life, compared to other people in the uk?",what gender do you identify with?,what is your age (in years)?,what is your nationality - selected choice,what is your nationality - other - text,how would you rate your sleep quality last night?,have your participated in the same or similar type of task before?,placement,oath,oath_postfix,oath_pic,device type,even1_1,even1_2,even1_3,even1_4,even2_1,even2_2,even2_3,even2_4,even3_1,even3_2,even3_3,even3_4,even4_1,even4_2,even4_3,even4_4,even10_1,even10_2,even10_3,even10_4,odd1_1,odd1_2,odd1_3,odd1_4,odd2_1,odd2_2,odd2_3,odd2_4,odd3_1,odd3_2,odd3_3,odd3_4,odd4_1,odd4_2,odd4_3,odd4_4,odd10_1,odd10_2,odd10_3,odd10_4,income_1,income_2,income_2a,income_3,income_3a,final_income,income_4,income_diff,"please, sort the eight numbers as either odd or even. - groups - odd","please, sort the eight numbers as either odd or even. - groups - even","please, sort the eight numbers as either odd or even. - ranks - odd - [field-even1_1] - rank","please, sort the eight numbers as either odd or even. - ranks - odd - [field-even1_2] - rank","please, sort the eight numbers as either odd or even. - ranks - odd - [field-even1_3] - rank","please, sort the eight numbers as either odd or even. - ranks - odd - [field-even1_4] - rank","please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd1_1] - rank","please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd1_2] - rank","please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd1_3] - rank","please, sort the eight numbers as either odd or even. - ranks - odd - [field-odd1_4] - rank","please, sort the eight numbers as either odd or even. - ranks - even - [field-even1_1] - rank","please, sort the eight numbers as either odd or even. - ranks - even - [field-even1_2] - rank","please, sort the eight numbers as either odd or even. - ranks - even - [field-even1_3] - rank","please, sort the eight numbers as either odd or even. - ranks - even - [field-even1_4] - rank","please, sort the eight numbers as either odd or even. - ranks - even - [field-odd1_1] - rank","please, sort the eight numbers as either odd or even. - ranks - even - [field-odd1_2] - rank","please, sort the eight numbers as either odd or even. - ranks - even - [field-odd1_3] - rank","please, sort the eight numbers as either odd or even. - ranks - even - [field-odd1_4] - rank","where would you place yourself on this ladder to represent where you think you stand at this time of your life, compared to other people in the us?",comprehension_test,comprehension_test_2,comprehension_test_3,comprehension_fail,comprehension_2_fail,comprehension_3_fail,attention_check,time_oath,oath_check,oath_type,income_declared,hh_1,hh_2,hh_3,hh_4,hh_2r,hh_3r,hh_4r,hh,trust_1,trust_2,trust_3,trust,ses,nation,nation_2_text,sq,before,hours,tax_compliance,tax,bonus,time_ic,time_submit,tax_final,tax_orig,tax_loss,character,type_accuracy,source_country,target_country,condition,n_s,n_t,n1_s,n0_s,tau_dr_tr,se,ci_low,ci_high
